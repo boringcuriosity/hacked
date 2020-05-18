@@ -43,6 +43,12 @@ export default{
 	metaInfo: {
 		title: 'Profile'
 	},
+	created() {
+    // redirect to login if not authenticated
+		if (!this.$auth.isAuthenticated()) {
+      this.$auth.login()
+    }
+	},
 	mounted() {
 		this.user = this.$auth.user || {};
 	},
