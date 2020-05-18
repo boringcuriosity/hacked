@@ -2,7 +2,7 @@
 
 A Gridsome starter using Auth0 for user authentication.
 
-![screenshot](screenshot.jpg)
+![screenshot](https://raw.githubusercontent.com/jsappme/gridsome-auth0-starter/master/screenshot.png)
 
 ## Demo URL
 
