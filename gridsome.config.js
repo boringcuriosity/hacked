@@ -5,8 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome Portfolio Starter',
-  siteDescription: 'A simple portfolio theme for Gridsome powered by Tailwind CSS v1',
+  siteName: 'Gridsome Auth0 Hubspot Starter',
+  siteDescription: 'A Gridsome starter using Auth0 and Hubspot powered by Tailwind CSS v1',
   siteUrl: 'https://gridsome-portfolio-starter.netlify.com',
   plugins: [
     {
@@ -67,7 +67,7 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'Gridsome Portfolio Starter Blog',
+          title: 'Gridsome Auth0 Hubspot Starter Blog',
           feed_url: 'https://gridsome-portfolio-starter.netlify.com/rss.xml',
           site_url: 'https://gridsome-portfolio-starter.netlify.com/'
         },
@@ -75,7 +75,7 @@ module.exports = {
           title: node.title,
           description: node.summary,
           url: 'https://gridsome-portfolio-starter.netlify.com' + node.path,
-          author: 'Andre Madarang',
+          author: 'Hervé Fulchiron',
           date: node.date
         }),
         output: {
