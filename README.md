@@ -6,7 +6,7 @@ A Gridsome starter using Auth0 and Hubspot powered by Tailwind CSS v1
 
 ## Demo URL
 
-[https://gridsome-portfolio-starter.netlify.com](https://gridsome-portfolio-starter.netlify.com)
+[https://gridsome-auth0-hubspot-starter.netlify.app](https://gridsome-auth0-hubspot-starter.netlify.app)
 
 ## Features
 
