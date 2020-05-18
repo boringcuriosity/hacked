@@ -5,9 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome Auth0 Hubspot Starter',
-  siteDescription: 'A Gridsome starter using Auth0 and Hubspot powered by Tailwind CSS v1',
-  siteUrl: 'https://gridsome-auth0-hubspot-starter.netlify.app',
+  siteName: 'Gridsome Auth0 Starter',
+  siteDescription: 'A Gridsome starter using Auth0 for user authentication.',
+  siteUrl: 'https://gridsome-auth0-starter.netlify.app',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
@@ -67,14 +67,14 @@ module.exports = {
       options: {
         contentTypeName: 'Post',
         feedOptions: {
-          title: 'Gridsome Auth0 Hubspot Starter Blog',
-          feed_url: 'https://gridsome-auth0-hubspot-starter.netlify.app/rss.xml',
-          site_url: 'https://gridsome-auth0-hubspot-starter.netlify.app'
+          title: 'Gridsome Auth0 Starter Blog',
+          feed_url: 'https://gridsome-auth0-starter.netlify.app/rss.xml',
+          site_url: 'https://gridsome-auth0-starter.netlify.app'
         },
         feedItemOptions: node => ({
           title: node.title,
           description: node.summary,
-          url: 'https://gridsome-auth0-hubspot-starter.netlify.app' + node.path,
+          url: 'https://gridsome-auth0-starter.netlify.app' + node.path,
           author: 'Hervé Fulchiron',
           date: node.date
         }),

@@ -1,12 +1,12 @@
-# Gridsome Auth0 Hubspot Starter
+# Gridsome Auth0 Starter
 
-A Gridsome starter using Auth0 and Hubspot powered by Tailwind CSS v1
+A Gridsome starter using Auth0 for user authentication.
 
 ![screenshot](https://user-images.githubusercontent.com/4316355/55691365-a2403380-596b-11e9-93be-05b846ec7760.jpg)
 
 ## Demo URL
 
-[https://gridsome-auth0-hubspot-starter.netlify.app](https://gridsome-auth0-hubspot-starter.netlify.app)
+[https://gridsome-auth0-starter.netlify.app](https://gridsome-auth0-starter.netlify.app)
 
 ## Features
 
@@ -27,8 +27,8 @@ A Gridsome starter using Auth0 and Hubspot powered by Tailwind CSS v1
 ## Installation
 
 1. Install Gridsome CLI tool if you don't have it: `npm install --global @gridsome/cli`
-1. Clone the repo: `git clone https://github.com/jsappme/gridsome-auth0-hubspot-starter.git`
-1. `cd gridsome-auth0-hubspot-starter`
+1. Clone the repo: `git clone https://github.com/jsappme/gridsome-auth0-starter.git`
+1. `cd gridsome-auth0-starter`
 1. `npm install`
 1. `gridsome develop` to start a local dev server at `http://localhost:8080`
 
