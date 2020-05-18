@@ -15,9 +15,9 @@
           class="uppercase tracking-wide font-bold w-full block flex-grow lg:space-x-8 space-y-6 lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center mt-8 lg:mt-0"
           :class="isOpen ? 'block': 'hidden'"
         >
-          <li class="mb-6 lg:mb-0">
+          <!--li class="mb-6 lg:mb-0">
             <search-input />
-          </li>
+          </li-->
           <li>
             <theme-switcher :theme="theme" @themeChanged="updateTheme" />
           </li>
