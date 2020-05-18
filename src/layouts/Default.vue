@@ -117,18 +117,14 @@ export default {
   },
   mounted() {
     this.theme = localStorage.getItem('theme') || 'theme-light'
+    this.isAuthenticated = this.$auth.isAuthenticated();
   },
   data() {
     return {
       isOpen: false,
       theme: '',
+      isAuthenticated: false,
     }
-  },
-  computed: {
-    isAuthenticated() {
-      //return this.$auth.isAuthenticated();
-      return false;
-    },
   },
   methods: {
     toggle() {
