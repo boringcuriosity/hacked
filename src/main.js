@@ -6,9 +6,7 @@ import VueScrollTo from 'vue-scrollto'
 import VueFuse from 'vue-fuse'
 import AuthPlugin from './plugins/auth'
 
-export default function (Vue, { router, head, isClient }) {
-  // Set default layout as a global component
-  Vue.component('Layout', DefaultLayout)
+export default function (Vue, { router, head, isClient }) {  
 
   Vue.use(VueScrollTo, {
     duration: 500,
@@ -36,6 +34,8 @@ export default function (Vue, { router, head, isClient }) {
       router.app.$auth.login()
     }
   })
+
+  Vue.component('Layout', DefaultLayout)
 
   head.meta.push({
     name: 'keywords',
