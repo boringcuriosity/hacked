@@ -1,11 +1,11 @@
 import auth0 from 'auth0-js'
 import Vue from 'vue'
-import { domain, clientId } from "../../auth_config.json";
+import { domain, clientId, siteUrl } from "../../auth_config.json";
 
 let webAuth = new auth0.WebAuth({
   domain: domain,
   clientID: clientId,
-  redirectUri: `${window.location.origin}/callback`,
+  redirectUri: siteUrl + '/callback',
   audience: 'https://'+domain+'/api/v2/',
   responseType: 'token id_token',
   scope: 'openid email profile'
@@ -58,7 +58,7 @@ let auth = new Vue({
         localStorage.removeItem('expires_at')
         localStorage.removeItem('user')
         webAuth.logout({
-          returnTo: `${window.location.origin}/`,
+          returnTo: siteUrl,
           clientID: clientId, // Your client ID
         })
       })
