@@ -126,7 +126,8 @@ export default {
   },
   computed: {
     isAuthenticated() {
-      return this.$auth.isAuthenticated();
+      //return this.$auth.isAuthenticated();
+      return false;
     },
   },
   methods: {
