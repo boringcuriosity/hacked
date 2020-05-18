@@ -6,7 +6,7 @@
         <div class="text-green-700 leading-tight">using <a target=_new href="https://auth0.com">Auth0</a> for user authentication</div>
       </div>
       <div class="mt-8 sm:mt-0">
-        <g-image src="../../static/developer.svg" alt="hero" class="mx-auto sm:mx-0" />
+        <g-image src="../../static/auth0.svg" width=200 alt="hero" class="mx-auto sm:mx-0" />
       </div>
     </div> <!-- end hero -->
 

@@ -2,7 +2,7 @@
 
 A Gridsome starter using Auth0 for user authentication.
 
-![screenshot](https://user-images.githubusercontent.com/4316355/55691365-a2403380-596b-11e9-93be-05b846ec7760.jpg)
+![screenshot](screenshot.jpg)
 
 ## Demo URL
 
@@ -10,6 +10,8 @@ A Gridsome starter using Auth0 for user authentication.
 
 ## Features
 
+- User signin and signup using Auth0
+- User profile page showing user avatar, name, etc...
 - Clean and minimal design
 - [Tailwind CSS v1](https://tailwindcss.com) (with PurgeCSS). Using [this gridsome plugin](https://gridsome.org/plugins/gridsome-plugin-tailwindcss) as it combines Tailwind and PurgeCSS.
 - Scroll to sections using [vue-scrollto](https://github.com/rigor789/vue-scrollto)
