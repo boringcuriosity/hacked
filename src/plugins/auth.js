@@ -64,7 +64,7 @@ let auth = new Vue({
       })
     },
     isAuthenticated() {
-      return new Date().getTime() < this.expiresAt && this.user
+      return new Date().getTime() < this.expiresAt
     },
     handleAuthentication() {
       return new Promise((resolve, reject) => {  
