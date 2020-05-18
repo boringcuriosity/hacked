@@ -44,13 +44,13 @@ export default{
 		title: 'Profile'
 	},
 	created() {
+	},
+	mounted() {
     // redirect to login if not authenticated
 		if (!this.$auth.isAuthenticated()) {
       this.$auth.login()
     }
-	},
-	mounted() {
-		this.user = this.$auth.user || {};
+    this.user = this.$auth.user || {};
 	},
 	data(){
 		return{
