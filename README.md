@@ -15,7 +15,7 @@ A Gridsome starter using Auth0 for user authentication.
 
 ## Requirements
 
-- You need an account at [https://auth0.com](Auth0)
+- You need an account at [Auth0](https://auth0.com)
 - Add your own client and key information in auth_config.json
 - You need to add your own urls in the application settings of your Auth0 account this way:
 
