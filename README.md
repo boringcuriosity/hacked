@@ -12,19 +12,14 @@ A Gridsome starter using Auth0 for user authentication.
 
 - User signin and signup using Auth0
 - User profile page showing user avatar, name, etc...
-- Clean and minimal design
-- [Tailwind CSS v1](https://tailwindcss.com) (with PurgeCSS). Using [this gridsome plugin](https://gridsome.org/plugins/gridsome-plugin-tailwindcss) as it combines Tailwind and PurgeCSS.
-- Scroll to sections using [vue-scrollto](https://github.com/rigor789/vue-scrollto)
-- Blog with markdown content for posts
-- Documentation type that shows how to use Vue components in Markdown (click Docs)
-- Theme Switcher with Dark Mode
-- Search posts with [Fuse.js](https://fusejs.io) and [vue-fuse](https://github.com/shayneo/vue-fuse)
-- Tags for posts
-- Basic pagination
-- Syntax highlighting with [Shiki](https://shiki.matsu.io) (using [this gridsome plugin](https://gridsome.org/plugins/gridsome-plugin-remark-shiki))
-- 404 Page
-- RSS Feed
-- Sitemap in XML
+
+## Requirements
+
+- You need an account at [https://auth0.com](Auth0)
+- Add your own client and key information in auth_config.json
+- You need to add your own urls in the application settings of your Auth0 account this way:
+
+![auth0-app-config](https://raw.githubusercontent.com/jsappme/gridsome-auth0-starter/master/auth0-app-config.png)
 
 ## Installation
 
