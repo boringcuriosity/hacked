@@ -7,7 +7,7 @@
 module.exports = {
   siteName: 'Gridsome Auth0 Starter',
   siteDescription: 'A Gridsome starter using Auth0 for user authentication.',
-  siteUrl: 'https://gridsome-auth0-starter.netlify.app',
+  siteUrl: 'https://starhacks.netlify.app/',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
